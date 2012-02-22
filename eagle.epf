@@ -333,10 +333,11 @@ UsedLibrary="/Applications/EAGLE-6.0.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/zilog.lbr"
+UsedLibrary="/Users/andrewmcaleer/Documents/eagle/ATmega48.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="18 22 880 451"
+Loc="21 22 883 451"
 State=2
 Number=0
 
