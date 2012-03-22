@@ -375,140 +375,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 </deviceset>
 </devicesets>
 </library>
-<library name="semicon-smd-ipc">
-<description>&lt;b&gt;IPC Standard SMD Semiconductors&lt;/b&gt;&lt;p&gt;
-A few devices defined according to the IPC standard.&lt;p&gt;
-Based on:&lt;p&gt;
-IPC-SM-782&lt;br&gt;
-IRevision A, August 1993&lt;br&gt;
-Includes Amendment 1, October 1996&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT23W">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-1.973" y1="1.983" x2="1.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-1.983" x2="-1.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-1.983" x2="-1.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="1.983" x2="1.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
-<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
-<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
-<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.303" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.303" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.303" dx="1" dy="1.4" layer="1"/>
-<text x="-2.03" y="2.0701" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.9949" y="-3.3701" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-<rectangle x1="-0.5001" y1="-0.5001" x2="0.5001" y2="0.5001" layer="35"/>
-</package>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-<package name="SOT89">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
-<wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="51"/>
-<wire x1="-2.235" y1="-1.245" x2="-2.235" y2="1.219" width="0.127" layer="51"/>
-<wire x1="-2.235" y1="1.219" x2="2.235" y2="1.219" width="0.127" layer="51"/>
-<wire x1="-0.7874" y1="1.5748" x2="-0.3556" y2="2.0066" width="0.1998" layer="51"/>
-<wire x1="-0.3556" y1="2.0066" x2="0.3556" y2="2.0066" width="0.1998" layer="51"/>
-<wire x1="0.3556" y1="2.0066" x2="0.7874" y2="1.5748" width="0.1998" layer="51"/>
-<wire x1="0.7874" y1="1.5748" x2="0.7874" y2="1.2954" width="0.1998" layer="51"/>
-<wire x1="0.7874" y1="1.2954" x2="-0.7874" y2="1.2954" width="0.1998" layer="51"/>
-<wire x1="-0.7874" y1="1.2954" x2="-0.7874" y2="1.5748" width="0.1998" layer="51"/>
-<smd name="1" x="-1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
-<smd name="3" x="1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
-<smd name="2" x="0" y="-1.727" dx="0.8" dy="1.9" layer="1"/>
-<smd name="2@1" x="0" y="0.94" dx="2.032" dy="3.65" layer="1" roundness="75"/>
-<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.4051" y="-4.3449" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7272" y1="-2.1082" x2="-1.27" y2="-1.27" layer="51"/>
-<rectangle x1="1.27" y1="-2.1082" x2="1.7272" y2="-1.27" layer="51"/>
-<rectangle x1="-0.2794" y1="-2.1082" x2="0.2794" y2="-1.27" layer="51"/>
-<polygon width="0.1998" layer="51">
-<vertex x="-0.7874" y="1.3208"/>
-<vertex x="-0.7874" y="1.5748"/>
-<vertex x="-0.3556" y="2.0066"/>
-<vertex x="0.3048" y="2.0066"/>
-<vertex x="0.3556" y="2.0066"/>
-<vertex x="0.7874" y="1.5748"/>
-<vertex x="0.7874" y="1.2954"/>
-<vertex x="-0.7874" y="1.2954"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="NPN">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.0399" x2="0.3081" y2="-1.4239" width="0.1524" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NPN-TRANSISTOR_" prefix="Q" uservalue="yes">
-<description>&lt;B&gt;NPN TRANSISTOR&lt;/B&gt;</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOT23W" package="SOT23W">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOT23" package="SOT23">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOT89" package="SOT89">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -7315,6 +7181,80 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="zetex">
+<description>&lt;b&gt;Zetex Power MOS FETs, Bridges, Diodes&lt;/b&gt;&lt;p&gt;
+http://www.zetex.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT223">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="1.0208" y="-4.318" size="0.8128" layer="21" ratio="12">3</text>
+<text x="1.905" y="2.54" size="0.8128" layer="21" ratio="12">4</text>
+<text x="-3.4526" y="-4.318" size="0.8128" layer="21" ratio="12">1</text>
+<text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN2C">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="C1" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C2" x="2.54" y="2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NPNSOT223" prefix="T" uservalue="yes">
+<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="NPN2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="A" pin="B" pad="1"/>
+<connect gate="A" pin="C1" pad="2"/>
+<connect gate="A" pin="C2" pad="4"/>
+<connect gate="A" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="DJT4031N-13" constant="no"/>
+<attribute name="OC_FARNELL" value="1710672" constant="no"/>
+<attribute name="OC_NEWARK" value="25R4490" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7327,21 +7267,18 @@ Metric Code Size 5664</description>
 <parts>
 <part name="U$1" library="ATmega48" deviceset="ATMEGA48" device=""/>
 <part name="Q1" library="transistor-fet" deviceset="IRF7389" device=""/>
-<part name="Q3" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="Q2" library="transistor-fet" deviceset="IRF7389" device=""/>
-<part name="Q4" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="Q5" library="transistor-fet" deviceset="IRF7389" device=""/>
-<part name="Q6" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="R1206"/>
 <part name="R13" library="rcl" deviceset="R-US_" device="R1206"/>
@@ -7350,6 +7287,9 @@ Metric Code Size 5664</description>
 <part name="X1" library="con-molex" deviceset="5566-8" device=""/>
 <part name="X2" library="con-molex" deviceset="5566-8" device=""/>
 <part name="C1" library="resistor" deviceset="C-US" device="C1206"/>
+<part name="T1" library="zetex" deviceset="NPNSOT223" device=""/>
+<part name="T2" library="zetex" deviceset="NPNSOT223" device=""/>
+<part name="T3" library="zetex" deviceset="NPNSOT223" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7362,21 +7302,18 @@ Metric Code Size 5664</description>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="-5.08"/>
 <instance part="Q1" gate="G$1" x="40.64" y="86.36"/>
-<instance part="Q3" gate="G$1" x="25.4" y="88.9"/>
 <instance part="R1" gate="G$1" x="0" y="81.28" rot="R90"/>
 <instance part="R2" gate="G$1" x="12.7" y="88.9"/>
 <instance part="R3" gate="G$1" x="27.94" y="104.14" rot="R90"/>
 <instance part="R4" gate="G$1" x="20.32" y="68.58"/>
 <instance part="R5" gate="G$1" x="7.62" y="63.5" rot="R90"/>
 <instance part="Q2" gate="G$1" x="119.38" y="83.82"/>
-<instance part="Q4" gate="G$1" x="104.14" y="86.36"/>
 <instance part="R6" gate="G$1" x="78.74" y="78.74" rot="R90"/>
 <instance part="R7" gate="G$1" x="91.44" y="86.36"/>
 <instance part="R8" gate="G$1" x="106.68" y="101.6" rot="R90"/>
 <instance part="R9" gate="G$1" x="99.06" y="66.04"/>
 <instance part="R10" gate="G$1" x="86.36" y="60.96" rot="R90"/>
 <instance part="Q5" gate="G$1" x="119.38" y="22.86"/>
-<instance part="Q6" gate="G$1" x="104.14" y="25.4"/>
 <instance part="R11" gate="G$1" x="78.74" y="17.78" rot="R90"/>
 <instance part="R12" gate="G$1" x="91.44" y="25.4"/>
 <instance part="R13" gate="G$1" x="106.68" y="40.64" rot="R90"/>
@@ -7399,19 +7336,22 @@ Metric Code Size 5664</description>
 <instance part="X2" gate="-7" x="-27.94" y="27.94"/>
 <instance part="X2" gate="-8" x="-27.94" y="25.4"/>
 <instance part="C1" gate="G$1" x="-22.86" y="10.16"/>
+<instance part="T1" gate="A" x="25.4" y="88.9"/>
+<instance part="T2" gate="A" x="104.14" y="86.36"/>
+<instance part="T3" gate="A" x="104.14" y="25.4"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="C"/>
 <wire x1="40.64" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="93.98" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
-<junction x="27.94" y="93.98"/>
 <pinref part="Q1" gate="G$1" pin="P-G"/>
 <junction x="38.1" y="93.98"/>
+<pinref part="T1" gate="A" pin="C1"/>
+<junction x="27.94" y="93.98"/>
 </segment>
 </net>
 <net name="VEE" class="0">
@@ -7485,8 +7425,8 @@ Metric Code Size 5664</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="Q3" gate="G$1" pin="B"/>
 <wire x1="17.78" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="T1" gate="A" pin="B"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -7540,9 +7480,9 @@ Metric Code Size 5664</description>
 <label x="-2.54" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="E"/>
 <wire x1="27.94" y1="83.82" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="27.94" y="78.74" size="1.778" layer="95"/>
+<pinref part="T1" gate="A" pin="E"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="N-S"/>
@@ -7560,9 +7500,9 @@ Metric Code Size 5664</description>
 <label x="76.2" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="G$1" pin="E"/>
 <wire x1="106.68" y1="81.28" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
 <label x="106.68" y="76.2" size="1.778" layer="95"/>
+<pinref part="T2" gate="A" pin="E"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="N-S"/>
@@ -7580,9 +7520,9 @@ Metric Code Size 5664</description>
 <label x="76.2" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="G$1" pin="E"/>
 <wire x1="106.68" y1="20.32" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
 <label x="106.68" y="15.24" size="1.778" layer="95"/>
+<pinref part="T3" gate="A" pin="E"/>
 </segment>
 <segment>
 <pinref part="Q5" gate="G$1" pin="N-S"/>
@@ -7612,13 +7552,13 @@ Metric Code Size 5664</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="C"/>
 <wire x1="119.38" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="91.44" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
-<junction x="106.68" y="91.44"/>
 <pinref part="Q2" gate="G$1" pin="P-G"/>
 <junction x="116.84" y="91.44"/>
+<pinref part="T2" gate="A" pin="C1"/>
+<junction x="106.68" y="91.44"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -7640,8 +7580,8 @@ Metric Code Size 5664</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="Q4" gate="G$1" pin="B"/>
 <wire x1="96.52" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="T2" gate="A" pin="B"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -7669,13 +7609,13 @@ Metric Code Size 5664</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="Q6" gate="G$1" pin="C"/>
 <wire x1="119.38" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="30.48" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
-<junction x="106.68" y="30.48"/>
 <pinref part="Q5" gate="G$1" pin="P-G"/>
 <junction x="116.84" y="30.48"/>
+<pinref part="T3" gate="A" pin="C1"/>
+<junction x="106.68" y="30.48"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -7697,8 +7637,8 @@ Metric Code Size 5664</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="Q6" gate="G$1" pin="B"/>
 <wire x1="96.52" y1="25.4" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="T3" gate="A" pin="B"/>
 </segment>
 </net>
 <net name="D3" class="0">
